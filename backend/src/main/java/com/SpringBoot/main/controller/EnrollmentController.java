@@ -8,7 +8,7 @@ import com.SpringBoot.main.services.EnrollmentService;
 
 @RestController
 @RequestMapping("/enrollment")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class EnrollmentController {
 
     @Autowired

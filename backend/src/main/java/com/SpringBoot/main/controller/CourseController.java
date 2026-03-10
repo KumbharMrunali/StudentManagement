@@ -11,7 +11,7 @@ import com.SpringBoot.main.services.CourseService;
 
 @RestController
 @RequestMapping("/course")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class CourseController {
 
 	

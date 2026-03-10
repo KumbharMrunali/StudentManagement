@@ -8,7 +8,7 @@ import com.SpringBoot.main.services.StudentService;
 
 @RestController
 @RequestMapping("/student")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class AuthController {
 
     @Autowired
